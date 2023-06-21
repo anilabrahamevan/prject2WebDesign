@@ -412,6 +412,17 @@ footer{
     
 }
 
+input:focus {
+    outline: 10px solid rgb(255, 0, 0);
+    
+  }
+  
+  button:focus-visible {
+    outline: 10px solid green;
+    
+  }
+  
+
  /* CSS styling for responsive layout */
 
                 /* Styles for mobile devices */
