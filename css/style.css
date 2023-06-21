@@ -216,7 +216,7 @@ html, body {
     border-right: 1px black solid;
     
     }
-.use1>p{
+.use1>h2{
     font-size: 1.8rem;
     font-family: 'Space Grotesk', sans-serif;   
     margin: 10px;
@@ -294,7 +294,7 @@ html, body {
     margin: 10px;
     font-weight: bold;
     }
-.pricebox1>h5{
+.pricebox1>h3{
     font-size: 1.1rem;
     font-family: 'Questrial', sans-serif;
     margin: 10px;
@@ -528,13 +528,13 @@ footer{
         border-right: 0px black solid;
         
         }
-    .use1>p{
+    .use1>h2{
         font-size: 1.8rem;
         font-family: 'Space Grotesk', sans-serif;   
         margin: 10px;
         font-weight: bold;
         }
-    .use1>h5{
+    .use1>h3{
         font-size: 1.1rem;
         font-family: 'Questrial', sans-serif;
         margin: 10px;
