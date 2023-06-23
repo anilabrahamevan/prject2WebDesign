@@ -31,6 +31,7 @@ html, body {
     height: 45px;
     background-color: white;
     display: flex;
+   border-bottom: 1px solid #8e8e8e;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -422,9 +423,9 @@ a>img:hover{
 }
 
 header a:focus {
-    box-shadow: 0px 0px 10px 1px rgba(0,97,254,0.9);
+    
     outline: 1px solid rgb(0, 0, 0);
-    padding: .3rem;
+   
     border-radius: .5rem;
   }
 
@@ -443,12 +444,92 @@ header a:focus {
   }
   
 
+  /* style for form */
+
+  #forms{
+    padding-top: 30px;
+    height: fit-content;
+    width: 100vw;
+    background-color: white;
+  }
+
+  #forms>h1{
+   text-align: center;
+  
+   
+   top:20px;  
+   font-family: 'Space Grotesk', sans-serif;   
+   color: #0061fe;
+   font-size: 280%;
+   padding: 40px;
+  }
+
+  .formContent{
+    font-size: .9rem;
+    font-family: 'Questrial', sans-serif;
+    margin: 10px;
+    font-weight:lighter;   
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+
+#name, #email, #dob, #password {
+    height: 14.400px;
+    width: 316.400px;
+    padding: 16px;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    border:  .8px solid grey;
+    color: grey;
+    font-size: 1rem;
+}
+
+.inputBox:focus-visible{
+    outline: 2px solid #4985e6;
+}
+
+.labels{
+    margin-left:-17rem;
+    color: #737373;
+}
+.labelsN{
+    margin-left:-19.6rem;
+    color: #737373;
+}
+.labelsP{
+    margin-left:-18.25rem;
+    color: #737373;
+}
+
+#submitBox{
+    height: 14.400px;
+    width: 350px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #0057e5;
+    border: 1.6px solid #0057e5;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: .8rem;
+    padding-bottom: 2.5rem;
+}
+
+#submitBox:hover{
+    cursor: pointer;
+    background-color: #0061fe;
+    border: 1.6px solid #0061fe;
+}
+
+ 
  /* CSS styling for responsive layout */
 
                 /* Styles for mobile devices */
 
  @media (max-width: 640px) {
-
+   
     .plan{
         display: none;
     }

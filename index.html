@@ -8,10 +8,16 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
-  <meta property="og:title" content="CloudCrate - Securely Save and Share Important Files">
+  <!-- additional meta tags -->
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="Abraham Evan Anil">
+  <meta name="description" content="CloudCrate is a secure and reliable cloud storage
+     platform for storing and sharing your important files. 
+     Sign up now to experience privacy and security.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="CloudCrate | Cloud Sharing">
+  <meta property="og:title" content="CloudCrate - Securely Save and Share Important Files">
   <meta property="og:site_name" content="CloudCrate - OG">
   <meta property="og:description"
     content="CloudCrate is a secure and reliable cloud storage platform for storing and sharing your important files. Sign up now to experience privacy and security. - OG">
@@ -24,9 +30,7 @@
   <meta name="twitter:site" content="@cloudcrate">
   <meta name="twitter:creator" content="@cloudcrate">
 
-  <meta name="description"
-    content="CloudCrate is a secure and reliable cloud storage platform for storing and sharing your important files. Sign up now to experience privacy and security.">
-  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+
   <link rel="stylesheet" href="./css/style.css">
   <title>CloudCrate - Securely Save and Share Important Files</title>
 </head>
@@ -45,7 +49,7 @@
         <div class="navItems" id="contact">
           <a href="#contact1">Contact</a>
         </div>
-        <div class="navItems" id="signin"><a href="#signUp">Sign up</a></div>
+        <div class="navItems" id="signin"><a href="#formNav">Sign up</a></div>
         <div class="navItems" id="login">
           <a href="./sorry.html">Log In</a>
         </div>
@@ -175,6 +179,35 @@
         </div>
       </div>
     </section>
+
+    <section id="formNav">
+      <form>
+        <div id="forms">
+          <h1>Sign Up for CloudCrate</h1>
+          <div class="formContent">
+            <div>
+              <label class="labelsN" for="name">Name</label> <br>
+              <input class="inputBox" type="text" id="name" required>
+            </div>
+            <div>
+              <label class="labelsN" for="email">Email</label> <br>
+              <input class="inputBox" type="email" id="email" required>
+            </div>
+            <div>
+              <label class="labels" for="dob">Date of Birth</label> <br>
+              <input class="inputBox" type="date" id="dob" required min="1920-01-01" max="2022-12-31">
+            </div>
+            <div>
+              <label class="labelsP" for="password">Password</label> <br>
+              <input class="inputBox" type="password" id="password" required>
+            </div>
+            <div>
+              <input id="submitBox" type="submit" value="Continue →">
+            </div>
+          </div>
+      </form>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -201,6 +234,8 @@
 
     </div>
   </footer>
+
+
 </body>
 
 </html>
